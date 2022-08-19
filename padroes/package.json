@@ -1,0 +1,17 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "singleton": "ts-node ./ts/singleton.ts",
+    "flyweight": "ts-node ./ts/flyweight.ts"
+  }
+}
