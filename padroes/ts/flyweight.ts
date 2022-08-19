@@ -53,8 +53,8 @@ const factory = new FlyweightFactory([
   ['Sansung', 'J5', 'pink'],
   ['Iphone', '11', 'black'],
   ['Iphone', '12', 'white'],
-  ['Sansung', 'Galaxy Z flip', 'purple'],
-  ['Sansung', 'Galaxy Z flip', 'white'],
+  ['Samsung', 'Galaxy Z flip', 'purple'],
+  ['Samsung', 'Galaxy Z flip', 'white'],
 ])
 factory.listFlyweights()
 
@@ -71,7 +71,7 @@ function addCellphone(
   flyweight.operation([owner])
 }
 
-addCellphone(factory, 'James Doe', 'Xiomi', 'POCO X3', 'blue')
-addCellphone(factory, 'James Doe', 'Xiomi', 'Redmi note 8', 'blue')
+addCellphone(factory, 'James Doe', 'Xaiomi', 'POCO X3', 'blue')
+addCellphone(factory, 'James Doe', 'Xaiomi', 'Redmi note 8', 'blue')
 
 factory.listFlyweights()
